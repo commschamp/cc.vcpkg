@@ -1,0 +1,6 @@
+Usage:
+    find_program(COMMSDSL2COMMS_EXE "commsdsl2comms" PATH_SUFFIXES cc-commsdsl REQUIRED)
+    add_custom_command(
+        OUTPUT /some/output/dir
+        COMMAND ${COMMSDSL2COMMS_EXE} ...
+    )
