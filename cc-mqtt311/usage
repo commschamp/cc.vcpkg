@@ -1,0 +1,3 @@
+Usage:
+    find_package(mqtt311 CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE cc::mqtt311)
