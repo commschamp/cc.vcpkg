@@ -1,3 +1,3 @@
 Usage:
     find_package(ublox CONFIG REQUIRED)
-    target_link_libraries(main PRIVATE cc::ublox)
+    target_link_libraries(main PRIVATE cc::cc_ublox)
