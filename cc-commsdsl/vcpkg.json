@@ -1,6 +1,6 @@
 {
   "name": "cc-commsdsl",
-  "version-semver": "5.1.0",
+  "version-semver": "5.1.2",
   "description": "Code generators of the CommsChampion Ecosystem.",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/commsdsl",
