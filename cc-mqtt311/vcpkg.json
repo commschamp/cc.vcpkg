@@ -1,6 +1,6 @@
 {
   "name": "cc-mqtt311",
-  "version-semver": "2.0.0",
+  "version-semver": "2.0.1",
   "description": "MQTT v3.1.1 protocol implemented using CommsChampion Ecosystem",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.mqtt311.commsdsl",
