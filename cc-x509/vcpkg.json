@@ -1,6 +1,6 @@
 {
   "name": "cc-x509",
-  "version-semver": "0.3.0",
+  "version-semver": "0.4.0",
   "description": "X.509 public key infrastructure implemented using CommsChampion Ecosystem",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.x509.commsdsl",
