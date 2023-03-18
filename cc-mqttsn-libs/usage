@@ -1,0 +1,6 @@
+Usage:
+    find_package(cc_mqttsn_client CONFIG REQUIRED)
+    target_link_libraries(client_tgt PRIVATE cc::cc_mqttsn_client)
+
+    find_package(cc_mqttsn_gateway CONFIG REQUIRED)
+    target_link_libraries(gateway_tgt PRIVATE cc::cc_mqttsn_gateway)
