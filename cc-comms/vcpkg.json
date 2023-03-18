@@ -1,6 +1,6 @@
 {
   "name": "cc-comms",
-  "version-semver": "5.1.0",
+  "version-semver": "5.1.1",
   "description": "Headers only C++(11) library to implement binary communication protocols.",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/comms",
