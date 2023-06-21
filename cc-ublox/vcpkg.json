@@ -6,7 +6,10 @@
   "documentation": "https://github.com/commschamp/cc.ublox.commsdsl",
   "license": null,
   "dependencies": [
-    "cc-comms",
+    {
+       "name": "cc-comms",
+       "version>=": "5.2.0"
+    },
     {
       "name": "vcpkg-cmake",
       "host": true
