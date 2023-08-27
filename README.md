@@ -1,5 +1,10 @@
 # Overview
-This repository is intended to be used as [ports overlay](https://github.com/microsoft/vcpkg/blob/master/docs/specifications/ports-overlay.md) directory or as [custom registries](https://learn.microsoft.com/en-us/vcpkg/users/registries) of the [vcpkg](https://github.com/microsoft/vcpkg) package manager. It provides latest versions of the [CommsChampion Ecosystem](https://commschamp.github.io/) repositories.
+This repository is intended to be used as
+[ports overlay](https://github.com/microsoft/vcpkg/blob/master/docs/specifications/ports-overlay.md)
+directory or as
+[custom registry](https://learn.microsoft.com/en-us/vcpkg/users/registries) of the
+[vcpkg](https://github.com/microsoft/vcpkg) package manager.
+It provides latest versions of the [CommsChampion Ecosystem](https://commschamp.github.io/) repositories.
 
 # Provided Ports
 
@@ -14,8 +19,7 @@ This repository is intended to be used as [ports overlay](https://github.com/mic
 
 # vcpkg-configuration.json
 
-To use this registry, you have to follow the instructions mentioned in [custom registries](https://learn.microsoft.com/en-us/vcpkg/users/registries). 
-Usually you will use something as the following:
+To use this registry, you have to follow the instructions mentioned in [Using Registries](https://learn.microsoft.com/en-us/vcpkg/users/registries) page.
 ```json
 {
     "default-registry": {
@@ -36,9 +40,9 @@ Usually you will use something as the following:
 }
 ```
 
-# How-To releasing
+# Update Versions Before Release
 
-1. increase the versions in the ports/ directory.
-2. commit changes
-3. run `vcpkg=<path_to_vcpkg_executable>` ./add_versions.sh
-4. commit changes
+1. Update the versions in the "ports" directory.
+2. Commit the changes.
+3. Run `vcpkg=<path_to_vcpkg_executable>` ./script/add_versions.sh
+4. Commit the changes.
