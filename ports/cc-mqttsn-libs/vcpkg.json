@@ -1,6 +1,6 @@
 {
   "name": "cc-mqttsn-libs",
-  "version-semver": "1.0.5",
+  "version-semver": "1.0.6",
   "description": "MQTT-SN client and gateway libraries.",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.mqttsn.libs",

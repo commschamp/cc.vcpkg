@@ -1,6 +1,6 @@
 {
   "name": "cc-mqtt5",
-  "version-semver": "2.4.0",
+  "version-semver": "2.5.0",
   "description": "MQTT v5 protocol implemented using CommsChampion Ecosystem",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.mqtt5.commsdsl",
