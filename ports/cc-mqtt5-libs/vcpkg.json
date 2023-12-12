@@ -1,9 +1,9 @@
 {
-  "name": "cc-mqttsn-libs",
-  "version-semver": "1.0.6",
-  "description": "MQTT-SN client and gateway libraries.",
+  "name": "cc-mqtt5-libs",
+  "version-semver": "0.1.1",
+  "description": "MQTT-5 client librarY.",
   "homepage": "https://commschamp.github.io/",
-  "documentation": "https://github.com/commschamp/cc.mqttsn.libs",
+  "documentation": "https://github.com/commschamp/cc.mqtt5.libs",
   "license": "MPL-2.0",
   "supports": "!uwp",
   "dependencies": [
@@ -12,11 +12,7 @@
        "version>=": "5.2.1"
     },
     {
-       "name": "cc-mqtt311",
-       "version>=": "2.5"
-    },
-    {
-       "name": "cc-mqttsn",
+       "name": "cc-mqtt5",
        "version>=": "2.5"
     },
     {

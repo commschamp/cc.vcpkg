@@ -12,6 +12,7 @@ It provides latest versions of the [CommsChampion Ecosystem](https://commschamp.
 - [cc-commsdsl](cc-commsdsl) - Port of the [commsdsl](https://github.com/commschamp/commsdsl) code generators.
 - [cc-mqtt311](cc-mqtt311) - Port of the [cc.mqtt311.generated](https://github.com/commschamp/cc.mqtt311.generated).
 - [cc-mqtt5](cc-mqtt5) - Port of the [cc.mqtt5.generated](https://github.com/commschamp/cc.mqtt5.generated).
+- [cc-mqtt5-libs](cc-mqtt5-libs) - Port of the [cc.mqtt5.libs](https://github.com/commschamp/cc.mqtt5.libs).
 - [cc-mqttsn](cc-mqttsn) - Port of the [cc.mqttsn.generated](https://github.com/commschamp/cc.mqttsn.generated).
 - [cc-mqttsn-libs](cc-mqttsn-libs) - Port of the [cc.mqttsn.libs](https://github.com/commschamp/cc.mqttsn.libs).
 - [cc-ublox](cc-ublox) - Port of the [cc.ublox.generated](https://github.com/commschamp/cc.ublox.generated).
