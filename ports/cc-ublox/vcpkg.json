@@ -1,14 +1,14 @@
 {
   "name": "cc-ublox",
-  "version-semver": "2.5.0",
+  "version-semver": "2.6.0",
   "description": "Binary protocol of the U-blox GPS receivers (UBX) implemented using CommsChampion Ecosystem",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.ublox.commsdsl",
-  "license": null,
+  "license": "MPL-2.0",
   "dependencies": [
     {
        "name": "cc-comms",
-       "version>=": "5.2.0"
+       "version>=": "5.2.2"
     },
     {
       "name": "vcpkg-cmake",

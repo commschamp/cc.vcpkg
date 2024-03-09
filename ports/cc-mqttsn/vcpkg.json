@@ -1,14 +1,14 @@
 {
   "name": "cc-mqttsn",
-  "version-semver": "2.5.0",
+  "version-semver": "2.6.0",
   "description": "MQTT-SN protocol implemented using CommsChampion Ecosystem",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.mqttsn.commsdsl",
-  "license": null,
+  "license": "MPL-2.0",
   "dependencies": [
     {
        "name": "cc-comms",
-       "version>=": "5.2.0"
+       "version>=": "5.2.2"
     },
     {
       "name": "vcpkg-cmake",
