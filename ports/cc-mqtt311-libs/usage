@@ -1,0 +1,4 @@
+Usage:
+    find_package(cc_mqtt311_client CONFIG REQUIRED)
+    target_link_libraries(client_tgt PRIVATE cc::cc_mqtt311_client)
+
