@@ -1,9 +1,9 @@
 {
-  "name": "cc-mqtt5-libs",
-  "version-semver": "0.5.0",
-  "description": "MQTT v5 client librarY.",
+  "name": "cc-mqtt311-libs",
+  "version-semver": "0.1.1",
+  "description": "MQTT v3.1.1 client librarY.",
   "homepage": "https://commschamp.github.io/",
-  "documentation": "https://github.com/commschamp/cc.mqtt5.libs",
+  "documentation": "https://github.com/commschamp/cc.mqtt311.libs",
   "license": "MPL-2.0",
   "dependencies": [
     {
