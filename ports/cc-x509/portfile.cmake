@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO commschamp/cc.x509.generated
-    REF v0.9
-    SHA512 3789f5bee958d8ce5996810c9433803397beb19503e394fdcef9b215ecd93cd19181ccde56151dc5048a127ff4ade5b3a214895a77f222e143bff1affbc07df2
+    REF v1.0
+    SHA512 24b99559714b9eadd1b5e6b26384a699579550465c4fcd800a1ca997f9c3c42788bae49390b8c72aeaea3e0c6c16aeae2b2594ef206a38c161215b7da2a0474f
     HEAD_REF master
 )
 

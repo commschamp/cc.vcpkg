@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO commschamp/cc.ublox.generated
-    REF v2.7
-    SHA512 bd0189799c7aed5db954847365ad80b885f59c087b60aefca12c966214105ca79e7fe08e0bdbe898fbe5379e28768dc80e068aa7f9fcc3de24505d21eb0e1ba3
+    REF v2.8
+    SHA512 ee3b9d263f17625ec00019e4679418008810cf6f2bc9cdf4b3439f200c19cad954a7337fc261bf45bdb0f32ce9e91dd3ed5f1cbbeb394c06b4ba5177b65dc77c
     HEAD_REF master
 )
 
