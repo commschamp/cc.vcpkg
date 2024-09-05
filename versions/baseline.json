@@ -1,7 +1,7 @@
 {
   "default": {
     "cc-comms": {
-      "baseline": "5.2.5",
+      "baseline": "5.2.6",
       "port-version": 0
     },
     "cc-commsdsl": {
@@ -25,11 +25,11 @@
       "port-version": 0
     },
     "cc-mqttsn": {
-      "baseline": "2.8.0",
+      "baseline": "2.8.1",
       "port-version": 0
     },
     "cc-mqttsn-libs": {
-      "baseline": "1.0.8",
+      "baseline": "2.0.3",
       "port-version": 0
     },
     "cc-ublox": {
