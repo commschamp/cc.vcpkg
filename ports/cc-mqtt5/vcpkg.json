@@ -1,6 +1,6 @@
 {
   "name": "cc-mqtt5",
-  "version-semver": "2.8.0",
+  "version-semver": "2.9.0",
   "description": "MQTT v5 protocol implemented using CommsChampion Ecosystem",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.mqtt5.commsdsl",
@@ -8,7 +8,7 @@
   "dependencies": [
     {
        "name": "cc-comms",
-       "version>=": "5.2.5"
+       "version>=": "5.2.7"
     },
     {
       "name": "vcpkg-cmake",

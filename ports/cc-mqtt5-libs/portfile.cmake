@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO commschamp/cc.mqtt5.libs
-    REF v1.0
-    SHA512 ef5cd024689cf5d746b379c41fd97848bdfa9d650610e38005534568c13aeb01e91ecf7eb255185857544e099f6351825ffc21a61afbe3aa3ce1c775fd7f7b1e
+    REF v1.0.1
+    SHA512 f01d90db8ee76376df8fa57925739066699ced8afe70d1450a5a2c2bc428b2aff28dece3cdeeb7d4a8c2af88309c840042c1dfa20ce372f0dec4b225dd51d1aa
     HEAD_REF master
 )
 
@@ -11,6 +11,7 @@ vcpkg_cmake_configure(
     OPTIONS
         -DCC_MQTT5_CLIENT_DEFAULT_LIB=ON
         -DCC_MQTT5_CLIENT_APPS=OFF
+        -DCC_MQTT5_WARN_AS_ERR=OFF
 )
 
 vcpkg_cmake_install()
