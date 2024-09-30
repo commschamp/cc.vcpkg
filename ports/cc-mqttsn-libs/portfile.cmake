@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO commschamp/cc.mqttsn.libs
-    REF v2.0.3
-    SHA512 3da9db869319997328337ce2d7b897ba589b3e55bfd6b73c8a4f9a69d04679723c2212ea9d0aab90fb91883b2e924637ef3fec989f72f5d4377b1fcc63760ce2
+    REF v2.0.4
+    SHA512 65ed6ed07c4fb13fde0f5abaa2b764e395cf6ddd81592af98f901f8b27a1800655be1ed61425f987d536022d637f71e982559d58d3941010abc1176ba5434a3b
     HEAD_REF master
 )
 
@@ -11,6 +11,7 @@ vcpkg_cmake_configure(
     OPTIONS
         -DCC_MQTTSN_CLIENT_APPS=OFF
         -DCC_MQTTSN_GATEWAY_APPS=OFF
+        -DCC_MQTTSN_WARN_AS_ERR=OFF
 )
 
 vcpkg_cmake_install()

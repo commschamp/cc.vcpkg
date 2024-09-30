@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO commschamp/cc.mqtt311.libs
-    REF v1.0
-    SHA512 9c259139de5e36a6b23a0d1246278926b533bd5ea44c58062c8bef6315f66a2c93c41e8ec68a12bebf24ca2fcf2f408bfcb64b401ff480d0f8752702050331f9
+    REF v1.0.1
+    SHA512 420137dec3b0fff8ed979dd9e775007f7e103653c33ff2b73207b2f04e4998aca4000ebc7eb3935edd851fc055b5b7c931fa85cc21eb6632dc2d966fd78fe0b0
     HEAD_REF master
 )
 
@@ -11,6 +11,7 @@ vcpkg_cmake_configure(
     OPTIONS
         -DCC_MQTT311_CLIENT_DEFAULT_LIB=ON
         -DCC_MQTT311_CLIENT_APPS=OFF
+        -DCC_MQTT311_WARN_AS_ERR=OFF
 )
 
 vcpkg_cmake_install()
