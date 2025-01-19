@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO commschamp/cc.mqtt5.libs
-    REF v1.0.1
-    SHA512 f01d90db8ee76376df8fa57925739066699ced8afe70d1450a5a2c2bc428b2aff28dece3cdeeb7d4a8c2af88309c840042c1dfa20ce372f0dec4b225dd51d1aa
+    REF v1.0.4
+    SHA512 e03db20b8d8be9ab1bbd0018ce8b71f954497482126310487e15a06665a9103418148dfe8cbd93dca13f9495df29286194f33823a7407ccec1a3db868750e7d1
     HEAD_REF master
 )
 
