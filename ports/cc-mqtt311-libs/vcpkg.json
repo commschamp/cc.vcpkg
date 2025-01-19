@@ -1,6 +1,6 @@
 {
   "name": "cc-mqtt311-libs",
-  "version-semver": "1.0.3",
+  "version-semver": "1.0.4",
   "description": "MQTT v3.1.1 client librarY.",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.mqtt311.libs",
@@ -12,7 +12,7 @@
     },
     {
        "name": "cc-mqtt311",
-       "version>=": "3.0"
+       "version>=": "3.0.1"
     },
     {
       "name": "vcpkg-cmake",
