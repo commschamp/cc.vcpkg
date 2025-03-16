@@ -1,7 +1,7 @@
 {
   "name": "cc-mqtt5-libs",
-  "version-semver": "1.0.4",
-  "description": "MQTT v5 client librarY.",
+  "version-semver": "1.0.5",
+  "description": "MQTT v5 client library.",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.mqtt5.libs",
   "license": "MPL-2.0",
@@ -12,7 +12,7 @@
     },
     {
        "name": "cc-mqtt5",
-       "version>=": "3.0.1"
+       "version>=": "3.0.2"
     },
     {
       "name": "vcpkg-cmake",
