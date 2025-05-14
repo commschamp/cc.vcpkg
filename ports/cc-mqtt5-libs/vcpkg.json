@@ -1,6 +1,6 @@
 {
   "name": "cc-mqtt5-libs",
-  "version-semver": "1.0.5",
+  "version-semver": "1.0.6",
   "description": "MQTT v5 client library.",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.mqtt5.libs",
@@ -8,11 +8,11 @@
   "dependencies": [
     {
        "name": "cc-comms",
-       "version>=": "5.3"
+       "version>=": "5.4.2"
     },
     {
        "name": "cc-mqtt5",
-       "version>=": "3.0.2"
+       "version>=": "3.0.3"
     },
     {
       "name": "vcpkg-cmake",
