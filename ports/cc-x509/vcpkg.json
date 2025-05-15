@@ -1,6 +1,6 @@
 {
   "name": "cc-x509",
-  "version-semver": "1.1.1",
+  "version-semver": "1.1.2",
   "description": "X.509 public key infrastructure implemented using CommsChampion Ecosystem",
   "homepage": "https://commschamp.github.io/",
   "documentation": "https://github.com/commschamp/cc.x509.commsdsl",
@@ -8,7 +8,7 @@
   "dependencies": [
     {
        "name": "cc-comms",
-       "version>=": "5.3"
+       "version>=": "5.4.2"
     },
     {
       "name": "vcpkg-cmake",
