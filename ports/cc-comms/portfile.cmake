@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO commschamp/comms
-    REF v5.4.2
-    SHA512 d1b5a4eaff47d6fa256e1ceeb2ec8853eeb3bddfa1575bd9fd6934dd1d19645651b94fd18e30d873619cfe7653f849400e57dcddbbf2236e7c49eb2c2bec2007
+    REF v5.4.3
+    SHA512 30269df975c429fe0898db7e4c753adf8141856b61ad1d9a0ddbbec019c610d916fe294b7b46cc342b49fcaf67f09ce98854a15128f168bee79e543ebb11aeb4
     HEAD_REF master
 )
 
