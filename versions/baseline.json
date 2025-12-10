@@ -1,15 +1,15 @@
 {
   "default": {
     "cc-comms": {
-      "baseline": "5.4.4",
+      "baseline": "5.4.5",
       "port-version": 0
     },
     "cc-commsdsl": {
-      "baseline": "7.2.0",
+      "baseline": "7.3.0",
       "port-version": 0
     },
     "cc-mqtt311": {
-      "baseline": "3.0.3",
+      "baseline": "3.0.4",
       "port-version": 0
     },
     "cc-mqtt311-libs": {
@@ -17,7 +17,7 @@
       "port-version": 0
     },
     "cc-mqtt5": {
-      "baseline": "3.0.3",
+      "baseline": "3.0.4",
       "port-version": 0
     },
     "cc-mqtt5-libs": {
@@ -25,7 +25,7 @@
       "port-version": 0
     },
     "cc-mqttsn": {
-      "baseline": "3.0.3",
+      "baseline": "3.0.4",
       "port-version": 0
     },
     "cc-mqttsn-libs": {
@@ -33,11 +33,11 @@
       "port-version": 0
     },
     "cc-ublox": {
-      "baseline": "3.0.3",
+      "baseline": "3.0.4",
       "port-version": 0
     },
     "cc-x509": {
-      "baseline": "1.1.2",
+      "baseline": "1.1.3",
       "port-version": 0
     }
   }

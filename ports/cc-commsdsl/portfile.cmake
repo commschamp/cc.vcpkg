@@ -1,8 +1,8 @@
 vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
     REPO commschamp/commsdsl
-    REF v7.2
-    SHA512 a75d32c178c71397f3a4290f354ced21483c3fb0a62ced70bdb8ea12ed5d8d4dbbe0ec15c5d480c6e32c8851deede855480d4db07324776116e9155f9e819300
+    REF v7.3
+    SHA512 29e3f606d7d26c8301629aa28041de9a3941c4dc66689f8ab199bc9fadfa4db00ab2217fc23a296189c8c44f011ceb893a2dc3cd9f63f1191452ea80f4b5f581
     HEAD_REF master
 )
 
@@ -16,12 +16,13 @@ vcpkg_cmake_configure(
         -DCOMMSDSL_BUILD_COMMSDSL2SWIG=ON
         -DCOMMSDSL_BUILD_COMMSDSL2EMSCRIPTEN=ON
         -DCOMMSDSL_BUILD_COMMSDSL2LATEX=ON
+        -DCOMMSDSL_BUILD_COMMSDSL2C=ON
 )
 
 vcpkg_cmake_install()
 
 vcpkg_copy_tools(
-    TOOL_NAMES commsdsl2comms commsdsl2test commsdsl2tools_qt commsdsl2swig commsdsl2emscripten commsdsl2latex
+    TOOL_NAMES commsdsl2comms commsdsl2test commsdsl2tools_qt commsdsl2swig commsdsl2emscripten commsdsl2latex commsdsl2c
     AUTO_CLEAN
 )
 
